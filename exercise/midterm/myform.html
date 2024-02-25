@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <meta name="description" content="My Form">
+    <meta name="keywords" content="form">
+    <meta name="author" content="Ratthee Jarathbenjawong">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="form">
+    <img src="./images/hotel.png" alt="hotel" width="160px" height="130px">
+    <h3>In Hotel V.1.0</h3>
+    <h4>"ค้างคืน ชั่วคราว นอนหลับพักผ่อนตลอดคืน"</h4>
+    <form action="booking.php" method="post">
+        <hr>
+        <table>
+            <tr>
+                <td><label for="nid">รหัสประจำตัวประชาชน</label></td>
+                <td><input type="text" name="nid" required></td>
+            </tr>
+            <tr>
+                <td><label for="nid">คำนำหน้า</label></td>
+                <td>
+                    <radio>
+                        <input type="radio" name="prefix" value="นาย" checked required> นาย
+                        <input type="radio" name="prefix" value="นาง" required> นาง
+                        <input type="radio" name="prefix" value="นางสาว" required> นางสาว
+                    </radio>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">ชื่อ - สกุล</label></td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="booking">ประเภทการพัก</label></td>
+                <td>
+                    <select name="booking" required>
+                        <option value="1">ชั่วคราวห้องแอร์ (550 บาท/3 ชั่วโมง)</option>
+                        <option value="2">ค้างคืนห้องแอร์ (1050 บาท)</option>
+                        <option value="3">ชั่วคราวห้องพัดลม (350 บาท/3 ชั่วโมง)</option>
+                        <option value="4">ค้างคืนห้องพัดลม (650 บาท)</option>
+                    </select>
+            </tr>
+            <tr>
+                <td><label for="night">จำนวนการเข้าพัก (ค้างคืน)</label></td>
+                <td><input type="number" name="night" required> คืน</td>
+            </tr>
+            <tr>
+                <td><label for="room">จำนวนห้องที่เข้าพัก</label></td>
+                <td><input type="number" name="room" required> ห้อง</td>
+            </tr>
+            <tr>
+                <td><label for="extra">Extra</label></td>
+                <td>
+                    <input type="checkbox" name="extra" value="bed"> เตียงเสริม (50 บาท/เตียง)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="padding-left: 35px;"><input type="number" name="bed"> เตียง</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="extra" value="wifi"> WiFi (30 บาท/1 รหัสผู้ใช้งาน)
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <input type="submit" value="บันทึกการเข้าพัก">
+        <input type="reset" value="ยกเลิก">
+    </form>
+</body>
+
+</html>
