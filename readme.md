@@ -33,3 +33,5 @@ Web programming Study about creating **webpage**. That can be displayed in a web
   - _script07_ : Functions with get and set in JavaScript
   - _script08_ : Array in JavaScript
   - _script09_ : Object in JavaScript
+- **lecture09** : JavaScript
+  - _script01 to script02_ : JavaScript Module
