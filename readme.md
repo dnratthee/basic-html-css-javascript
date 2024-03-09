@@ -14,12 +14,22 @@ Web programming Study about creating **webpage**. That can be displayed in a web
   - _test02_ : HTML List
   - _test03_ : HTML Table
 - **lecture04** : HTML Form
-- **lecture05** : CSS Style and Selector
-  - _test01 to test04_ : CSS Style (Inline, Internal, External and Mix)
+- **lecture05** : CSS Writing Styles and Selector
+  - _test01 to test04_ : CSS Writing Styles in HTML (Inline, Internal, External and Mix)
   - _test05 to test14_ : CSS Selector (Universal, Element, ID, Class, Union, Element.Class, Descendant, Child, Adjacent Sibling and General Sibling)
-- **lecture06** : JavaScript Style
+- **lecture06** : JavaScript Writing Styles in HTML
 - **lecture07** : JavaScript
   - _script01_ : Comment and Console.log
   - _script02_ : Variables in JavaScript
   - _script03 and script04_ : Operators in JavaScript
   - _script05_ : Control Structures in JavaScript (Selection)
+- **lecture08** : JavaScript
+  - _script01_ : Functions in JavaScript
+  - _script02_ : Anonymous Function in JavaScript
+  - _script03_ : Arrow Functions in JavaScript
+  - _script04_ : Callback Function in JavaScript
+  - _script05_ : Functions with Default Parameters in JavaScript
+  - _script06_ : Functions with Rest and Spread Parameters in JavaScript
+  - _script07_ : Functions with get and set in JavaScript
+  - _script08_ : Array in JavaScript
+  - _script09_ : Object in JavaScript
