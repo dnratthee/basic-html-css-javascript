@@ -1,5 +1,6 @@
 // JavaScript Module
-// JavaScript Module is a collection of JavaScript objects, functions, and variables. It is a way to encapsulate the code and protect the code from the global scope.
+// JavaScript Module is a collection of JavaScript objects, functions, and variables.
+// It is a way to encapsulate the code and protect the code from the global scope.
 
 const MAJOR = "Computer Engineering";
 
