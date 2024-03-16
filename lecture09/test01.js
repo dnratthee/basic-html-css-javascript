@@ -25,4 +25,4 @@ let calculateAge = function (birthDate) {
   return age;
 };
 
-module.exports = { MAJOR, info, showInfo, calculateAge };
+export { MAJOR, info, showInfo, calculateAge };
